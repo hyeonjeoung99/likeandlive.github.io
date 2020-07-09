@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <title>PORTFOLIO</title>
+    <style media="screen">
+      /*sub navigaiion*/
+      #contents2 {
+        /*width: 100%;
+        margin: 0 auto;*/
+        float:right;
+        text-align: center;
+        font-size: 90%;
+        margin-right: 100px;
+        /*border: solid 1px red;*/
+      }
+      #sub_menu {
+        /*font-family: 'Nanum Myeongjo', serif;*/
+        width: 120px;
+        float: right;
+        margin-top: 50px;
+        /*margin-right: 100px;*/
+        /*border: solid 1px #ffffff;*/
+        /*border: solid 1px red;*/
+      }
+      #sub_menu h4 {
+        font-size: 14px;
+        color: #ffffff;
+        padding: 12px;
+        background-color: #000000;
+      }
+      #sub_menu li {
+        /*font-family: 'Noto Sans KR', sans-serif;*/
+        padding: 12px;
+        border-bottom: solid 1px #ffffff;
+      }
+      #select {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+      #main_img {
+        margin-left: 500px;
+        /*text-align: center;*/}
+      #table {
+          margin-left: 380px;
+          /*text-align: center;*/}
+    </style>
+
+  </head>
+  <body>
+  <!--헤더-->
+    <header>
+      <div id="logo" >
+        <span id="logo_img"><a href='./index.html'><img src='./logo.png' width='100' title='개미처럼 살아라'></a></span>
+      </div>
+      <nav id="menu">
+        <ul id='top_menu'>
+          <li><a href='./info.html'>소개합니다</a></li>
+          <li><a href='./planning.html'>PLANNING</a></li>
+          <li><a href='./design.html'>DESIGN</a></li>
+          <li><a href='./programming.html'>PROGRAMMING</a></li>
+          <li id="select"><a href='./contact.html'>Contact.</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--본문-->
+    <section id="contents">
+        <!--서브 내비게이션-->
+        <div id="contents2">
+          <nav id='sub_menu'>
+            <h4>Contact.</h4>
+              <ul>
+                <li  id="select"> <a href='./contact.html'>Contact</a></li>
+              </ul>
+            </nav>
+        </div>
+
+        <div id="main_contents">
+          <h2># Contact.</h2><br><br><br>
+          <div id="main_img"><img src="antt.png" width="250"></div><br>
+
+          <form><div id="table"><table>
+            <tr>
+              <td><b>이름</b> &nbsp; &nbsp; &nbsp;</td><td><input type="text"></td>
+            </tr>
+            <tr>
+              <td><b>비밀번호</b>  &nbsp; &nbsp; &nbsp;</td><td><input type="password"></td>
+            </tr>
+            <tr>
+              <td><b>연락처</b>  &nbsp; &nbsp; &nbsp;</td><td><select><option>010</option><option>011</option><option>02</option><option>031</option><option>033</option><option>053</option><option>062</option></select>-
+              <input class="hp" type="text"></td>
+            </tr>
+            <tr>
+              <td><b>문의하기</b>  &nbsp; &nbsp; &nbsp;</td><td><textarea rows="5" cols="60"></textarea></td>
+            </tr>
+            <tr>
+              <td></td><td><button type="button" onclick="alert('전송되었습니다')">전송</button></td>
+            </tr>
+          </table></div>
+          </form>
+        </div>
+      </section>
+
+      <!--푸터-->
+      <div class="clear"></div> <!--float속성 해제-->
+      <footer>
+        <div id="footer_box">
+          <div id="footer_logo">
+            <img src='./logo2.png' width='80'>
+          </div>
+          <ul id=info>
+            <li>계원예술대학교 디지털미디어디자인학과 2A</li>
+            <li>TEL: 010-6261-2601 | Email: 0505064@naver.com</li>
+            <li>COPYRIGHT &copy;개미같은 사람들</li>
+          </ul>
+        </div>
+      </footer>
+  </body>
+</html>
