@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <title>PORTFOLIO</title>
+    <style media="screen">
+      body {
+        text-align: center;
+      }
+      .body {
+        float: left;
+        margin-left: 30px;
+      }
+      /*#font {
+        text-align: center;
+        margin: 20px 0 0 100px;
+      }*/
+
+      /*sub navigaiion*/
+
+      #contents2 {
+        /*width: 100%;*/
+        margin: 0 auto;*/
+        float:right;
+        text-align: center;
+        font-size: 90%;
+        margin-right: 100px;
+        /*border: solid 1px red*/
+      }
+      #sub_menu {
+        /*font-family: 'Nanum Myeongjo', serif;*/
+        width: 120px;
+        float: right;
+        margin-top: 50px;
+        /*margin-right: 100px;*/
+        /*border: solid 1px #ffffff;*/
+        /*border: solid 1px red;*/
+      }
+      #sub_menu h4 {
+        font-size: 14px;
+        color: #ffffff;
+        padding: 12px;
+        background-color: #000000;
+      }
+      #sub_menu li {
+        /*font-family: 'Noto Sans KR', sans-serif;*/
+        padding: 12px;
+        border-bottom: solid 1px #ffffff;
+      }
+      #select {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+      #table {
+        margin-left: 300px;
+      }
+      #table2 {
+        margin-left: 18px;
+      }
+      #img {
+        margin-left: 130px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <header>
+      <!--헤더-->
+      <div id="logo" >
+        <span id="logo_img"><a href='./index.html'><img src='./logo.png' width='100' title='개미처럼 살아라'></a></span>
+      </div>
+      <nav id="menu">
+        <ul id='top_menu'>
+          <li id="select"><a href='./info.html'>소개합니다</a></li>
+          <li><a href='./planning.html'>PLANNING</a></li>
+          <li><a href='./design.html'>DESIGN</a></li>
+          <li><a href='./programming.html'>PROGRAMMING</a></li>
+          <li><a href='./contact.html'>Contact.</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--본문-->
+    <section id="contents">
+        <!--서브 내비게이션-->
+        <div id="contents2">
+          <nav id='sub_menu'>
+            <h4 id="font">소개합니다</h4>
+              <ul>
+                <li id="select"><a href='./info.html'>PROFILE</a></li>
+              </ul>
+            </nav>
+        </div>
+
+<!--진짜본문-->
+      <div id="main_contents">
+        <h2># PROFILE</h2><br><br><br>
+        <div id="img"><img src="my.png" width="400"></div><br>
+        <div id="table"><center><table>
+          <tr>
+            <td><b>이름</b></td><td>&nbsp;&nbsp;&nbsp 조현정</td>
+          </tr>
+          <tr>
+          <td><b>생일</b></td><td>&nbsp;&nbsp;&nbsp 1999.10.14</td>
+          </tr>
+          <tr>
+            <td><b>학력</b></td><td>&nbsp;&nbsp;&nbsp ~2018 혜성여자고등학교</td>
+          </tr>
+          <tr>
+            <td></td><td>&nbsp;&nbsp;&nbsp 2018 계원예술대학교 디지털미디어디자인학과 입학</td>
+          </tr>
+          <tr>
+            <td><b>경력</b></td><td>&nbsp;&nbsp;&nbsp송사부고로케 판매, 진열</td>
+          </tr>
+          <tr>
+            <td></td><td>&nbsp;&nbsp;&nbsp홈플러스 크리스마스 완구 시연</td>
+          </tr>
+          <tr>
+            <td></td><td>&nbsp;&nbsp;&nbsp노원구청 대학생 아르바이트</td>
+          </tr>
+          <tr>
+            <td><b>수상</b></td><td>&nbsp;&nbsp;&nbsp2018년 1학기 연합PT</td>
+          </tr>
+          <tr>
+            <td></td><td>&nbsp;&nbsp;&nbsp2019년 2학기 연합PT</td>
+          </tr>
+          <tr>
+            <td></td><td>&nbsp;&nbsp;&nbsp2019년 2학기 성적우수</td>
+          </tr>
+            <tr>
+            <center><td colspan="2"><br><br>
+              <span id="table2"><a href="https://www.facebook.com/profile.php?id=100023738735842" target="_blank"><img src="facebook.png" width="50"></a></span>
+            <span id="table2"><a href="https://www.instagram.com/hyeonjeoung99/" target="_blank"><img src="insta.png" width="50"></a></span>
+          <span id="table2"><a href="https://open.kakao.com/o/sHbVSVcc" target="_blank"><img src="kakao.png" width="50"></a></span></td></center>
+          </tr>
+        </table></center></div>
+      </div>
+    </section>
+
+      <!--푸터-->
+      <div class="clear"></div> <!--float속성 해제-->
+      <footer>
+        <div id="footer_box">
+          <div id="footer_logo">
+            <img src='./logo2.png' width='80'>
+          </div>
+          <ul id=info>
+            <li>계원예술대학교 디지털미디어디자인학과 2A</li>
+            <li>TEL: 010-6261-2601 | Email: 0505064@naver.com</li>
+            <li>COPYRIGHT &copy;개미같은 사람들</li>
+          </ul>
+        </div>
+      </footer>
+  </body>
+</html>

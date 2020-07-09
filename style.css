@@ -1,0 +1,137 @@
+/*기본설정*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+}
+
+.clear {
+  clear: both;
+}
+table, th, tr, td {
+  border-collapse: collapse;
+  /*border: solid 1px black;*/
+}
+
+/*헤더*/
+header {
+  width: 1350px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  /*background-color: white;*/
+}
+li {
+  list-style-type: none;
+}
+
+#logo {
+  float: left;
+  margin-left:30px;
+}
+/*#menu {
+  float: left;
+  margin: 20px 0 0 70px;
+  display: inline;
+}*/
+#menu {
+  margin: 35px 0 0 70px;
+  float: right;
+  margin-right: 80px;
+  /*font-family: 'Nanum Myeongjo', serif;*/
+  font-size: 100%;
+  /*font-weight: bold;*/
+  /*border: solid 1px red;*/
+}
+#menu li {
+  display: inline;
+  margin-right: 70px;
+  margin-left: 0px;
+}
+
+#select {
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+  }
+
+/*바디*/
+body {
+  background-color: #ffd851;
+  font-family:
+}
+#contents {
+  margin: 0 auto;
+  /*border: solid 1px red;*/
+}
+#main_contents {
+  float: left;
+  width: 1200px;
+  margin-top: 20px;
+  margin-left: 80px;
+  /*text-align: center;*/
+  /*border: solid 1px red*/
+}
+#main_contents2 {
+  float: left;
+  width: 1000px;
+  margin-top: 20px;
+  /*margin-left: 80px;*/
+  /*text-align: center;*/
+  /*border: solid 1px red;*/
+}
+#main_image {
+  margin-left: 180px;
+}
+#main_contents h2 {
+  float: left;
+  /*border: solid 1px black;*/
+  background-color: white;
+  width: 150px;
+  margin-left: 10px;
+  /*font-family: 'Black Han Sans', sans-serif;*/
+}
+
+/*푸터*/
+footer {
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+  background-color: black;
+}
+#footer_box {
+  width: 1400px;
+  height: 110px;
+  margin: 0 auto;
+}
+#footer_logo {
+  float: left;
+  margin: 15px 0 0 10px;
+}
+#info {
+  float: right;
+  margin: 20px 70px 0 0;
+  color: white;
+  font-size: 75%;
+  line-height: 180%;
+}
+
+/*꾸밈*/
+#logo_img {
+  opacity: 0.8;
+}
+#logo_img:hover {
+  opacity: 1.0;
+  /*color: white;*/
+}

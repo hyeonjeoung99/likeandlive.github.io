@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <title>PORTFOLIO</title>
+    <style media="screen">
+      /*sub navigaiion*/
+      #contents2 {
+        /*width: 100%;
+        margin: 0 auto;*/
+        float:right;
+        text-align: center;
+        font-size: 90%;
+        margin-right: 100px;
+        /*border: solid 1px red;*/
+      }
+      #sub_menu {
+        /*font-family: 'Nanum Myeongjo', serif;*/
+        width: 120px;
+        float: right;
+        margin-top: 50px;
+        /*border: solid 1px #ffffff;*/
+        /*border: solid 1px red;*/
+      }
+      #sub_menu h4 {
+        font-size: 14px;
+        color: #ffffff;
+        padding: 12px;
+        background-color: #000000;
+      }
+      #sub_menu li {
+        /*font-family: 'Noto Sans KR', sans-serif;*/
+        padding: 12px;
+        border-bottom: solid 1px #ffffff;
+      }
+      #select {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+      #text {
+        margin-top: 20px;
+        font-size: 15px;
+      }
+      body {
+        text-align : center;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <header>
+      <!--헤더-->
+      <div id="logo" >
+        <span id="logo_img"><a href='./index.html'><img src='./logo.png' width='100' title='개미처럼 살아라'></a></span>
+      </div>
+      <nav id="menu">
+        <ul id='top_menu'>
+          <li><a href='./info.html'>소개합니다</a></li>
+          <li id="select"><a href='./planning.html'>PLANNING</a></li>
+          <li><a href='./design.html'>DESIGN</a></li>
+          <li><a href='./programming.html'>PROGRAMMING</a></li>
+          <li><a href='./contact.html'>Contact.</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--본문-->
+    <section id='contents'>
+      <!--서브 내비게이션-->
+      <div id="contents2">
+        <nav id='sub_menu'>
+          <h4>PLANNING</h4>
+            <ul>
+              <li> <a href='./planning.html'>메가박스</a></li>
+              <li id="select"> <a href='./hwabang.html'>화방넷</a></li>
+            </ul>
+          </nav>
+      </div>
+
+      <div id="main_contents">
+        <h2># 화방넷</h2><br>
+        <div id="text">
+          <h3>2019년 2학기 직무수행능력평가2</h3>-
+          <p>화방넷 웹사이트 개선안을 내는 작업을 진행하였다. <br> 이 과정에서 사용자정의, 인터뷰, 정보수집, 미시환경분석, 와이어프레임을 진행하였다.<br><br><br>
+          </p></div>
+        <video width="800" controls>
+          <source src="pro2.mp4" type="video/mp4">
+
+        </section>
+
+        <!--푸터-->
+        <div class="clear"></div> <!--float속성 해제-->
+        <footer>
+          <div id="footer_box">
+            <div id="footer_logo">
+              <img src='./logo2.png' width='80'>
+            </div>
+            <ul id=info>
+              <li>계원예술대학교 디지털미디어디자인학과 2A</li>
+              <li>TEL: 010-6261-2601 | Email: 0505064@naver.com</li>
+              <li>COPYRIGHT &copy;개미같은 사람들</li>
+            </ul>
+          </div>
+        </footer>
+  </body>
+</html>
